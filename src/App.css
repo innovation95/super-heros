@@ -1,7 +1,12 @@
+.body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .home-page {
   position: relative;
   height: 100vh;
-  background-image: url('./assets/images/main.jpg');
+  background-image: url('./assets/images/landing_page.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -12,5 +17,5 @@
   height: 100%;
   width: 100%;
   z-index: 1;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
 }
